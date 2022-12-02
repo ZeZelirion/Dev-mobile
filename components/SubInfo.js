@@ -5,9 +5,8 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize}) => {
   return (
     <View>
         <Text style={{fontFamily: FONTS.semiBold,
-        color: COLORS.primary
+        color: COLORS.primary,
     }}>{title}</Text>
-
         <Text style={{fontFamily: FONTS.regular,
         color: COLORS.primary
     }}>{subTitle}</Text>
