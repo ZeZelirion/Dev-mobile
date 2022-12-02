@@ -29,10 +29,22 @@ export const CircleButton = ({ imgUrl, handLePress, ...props }) => {
   )
 }
 
-export const RectButton = () => {
+export const RectButton = ({minWidth, handLePress}) => {
     return (
-      <View>
-        <Text>RectButton</Text>
-      </View>
+      <TouchableOpacity
+    style={{
+        backgroundColor: COLORS.primary,
+        borderRadius: SIZES.extraLarge,
+        minWidth: minWidth,
+        padding: SIZES.small
+    }} onPress={handLePress}>
+
+      <Text style={{
+        fontFamily: FONTS.semiBold,
+        color: COLORS.white,
+        textAlign: 'center'
+      }}>Placez votre prix</Text>
+
+    </TouchableOpacity>
     )
   }
