@@ -5,5 +5,6 @@ import { CircleButton } from "./Button";
 import { RectButton } from "./Button";
 import DetailsDesc from './DetailsDesc';
 import DetailsBid from './DetailsBid';
+import { SubInfo } from "./SubInfo";
 
-export {HomeHeader, FocusedStatusBar, NFTCard, CircleButton, RectButton, DetailsDesc, DetailsBid}
+export {HomeHeader, FocusedStatusBar, NFTCard, CircleButton, RectButton, DetailsDesc, DetailsBid, SubInfo} 
