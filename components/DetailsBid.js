@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const DetailsBid = () => {
+const DetailsBid = ({bid}) => {
   return (
     <View>
-      <Text>DetailsBid</Text>
+      <Text>Détail</Text>
     </View>
   )
 }
