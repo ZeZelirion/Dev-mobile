@@ -17,6 +17,7 @@ const DetailsBid = ({bid}) => {
         source={bid.image}
         resizeMode='contain'
         style={{
+          borderRadius: 25,
           width: 48, height: 48
         }}
       />

@@ -42,6 +42,7 @@ export const ImageCmp = ({imgUrl, index}) => {
         source={imgUrl}
         resizeMode="contain"
         style={{
+            borderRadius: 25,
             width: 48,
             height: 48,
             marginLeft: index=== 0 ? 0 : -SIZES.font

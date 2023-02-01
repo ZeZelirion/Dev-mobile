@@ -19,7 +19,7 @@ const NFTCard = ({data}) => {
       ...SHADOWS.dark
     }}>
       <View style = {{width: "100%", height: 250}}>
-        <Image source={require('../assets/images/nft01.png')}
+        <Image source={data.image}
         resizeMode='cover'
         style={{
           width: "100%",
